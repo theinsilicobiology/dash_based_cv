@@ -33,7 +33,7 @@ from Layouts import  intro, education,workexperience, techskills, languages, sof
 
 server = flask.Flask(__name__)
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP], server=server)
-app.title = "Susana P - Computational Biologist/Data Scientist"
+app.title = "Jane Doe - Awesome Data Scientist"
 app.config.suppress_callback_exceptions = True
 
 #server = app.server
